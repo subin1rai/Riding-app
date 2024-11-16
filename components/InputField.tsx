@@ -26,6 +26,7 @@ const InputField = ({
         <Text className={`text-lg font-JakartaSemiBold mb-3 ${labelStyle}`}>
           {label}
         </Text>
+        {/* BUTTON */}
         <View
           className={`flex flex-row justify-start
              items-center relative bg-neutral-100
