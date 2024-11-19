@@ -1,5 +1,6 @@
 import CustomButton from "@/components/CustomButtons";
 import InputField from "@/components/InputField";
+import OAuth from "@/components/Oauth";
 import { icons, images } from "@/constants";
 import { Link } from "expo-router";
 import { useState } from "react";
@@ -45,7 +46,7 @@ const SignUp = () => {
 
           <CustomButton title="sign Up" onPress={onSignUpPress} className="mt-6 h-14" />
 
-          {/* oAuth */}
+          <OAuth/>
        <Link href={"/sign-in"} className="text-lg text-center text-general-200 mt-10">
        <Text>Already have an Account?</Text>
        <Text className="text-primary-500"> Log In</Text>
