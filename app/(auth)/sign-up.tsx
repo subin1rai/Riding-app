@@ -20,7 +20,7 @@ const SignUp = () => {
     if (!isLoaded) {
       return;
     }
-
+//auth coode 
     try {
       await signUp.create({
         emailAddress : form.email,
