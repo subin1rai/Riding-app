@@ -24,6 +24,7 @@ const OnBoarding = () => {
         }}
         className="w-full flex justify-end items-end p-5"
       >
+        {/* welcome text */}
         <Text className="text-black tsxt-md font-JakartaBold">Skip</Text>
       </TouchableOpacity>
       <Swiper
